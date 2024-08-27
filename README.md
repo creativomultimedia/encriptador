@@ -25,7 +25,7 @@ Este proyecto es un encriptador y desencriptador de texto simple implementado co
 
 - **HTML (index.html):** Contiene la estructura básica del proyecto, incluyendo dos áreas de texto (textarea), dos botones y un footer con el año actual.
 - **CSS (style.css):** Define el estilo visual del proyecto, con fuentes, colores, y layout. Incluye reglas de estilo para pantallas pequeñas (max-width: 800px).
-- **JavaScript (app.js):** Maneja la lógica para encriptar y desencriptar texto, utilizando reglas definidas en un objeto `llavesEncriptador`.
+- **JavaScript (app.js):** Maneja la lógica para encriptar y desencriptar texto utilizando expresiones regulares. Se enlazan eventos de clic a los botones para realizar las operaciones de encriptación y desencriptación.
 
 ## Reglas de Encriptación
 

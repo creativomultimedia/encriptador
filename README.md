@@ -1,5 +1,5 @@
 # Encriptador de Texto
-
+![Vista previa del Encriptador](assets/encriptador.png)
 Este proyecto es un encriptador y desencriptador de texto simple implementado con HTML, CSS y JavaScript. Su objetivo es transformar un texto introducido por el usuario en un formato encriptado basado en reglas específicas, y luego permitir la desencriptación del mismo.
 
 ## Características

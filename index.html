@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Desencriptador</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Alura</h1>
+    </header>
+    <div class="container fade-in">
+        <div class="left">
+            <textarea id="inputText" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="buttons">
+                <button onclick="encryptText()">Encriptar</button>
+                <button onclick="decryptText()">Desencriptar</button>
+            </div>
+            <div id="error" style="color: rgb(148, 148, 148);  text-align: center; margin-top: 10px;">
+                No se permiten mayúsculas o caracteres especiales.
+            </div>
+        </div>
+        <div class="right">
+            <div id="placeholder">
+                <img src="assets/Muneco.png" alt="Placeholder">
+                <p id="noMessage">Ningún mensaje fue encontrado</p>
+                <p id="enterText">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <textarea id="outputText" readonly></textarea>
+            <div class="buttons">
+                <button class="copy-btn" onclick="copyText()">Copiar</button>
+                <button class="clear-btn" onclick="clearText()">Limpiar</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© Creado por Steve Rosado, 24 de agosto de 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
